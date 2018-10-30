@@ -1,0 +1,98 @@
+@import "vars";
+@import "fonts";
+
+::placeholder {
+	color: #ccc;
+	@include transition-animation;
+}
+	
+::selection {
+	background-color: $accent;
+	color: #fff;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-size: $def-fnz;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.65;
+	font-family: $default-font;
+	overflow-x: hidden;
+}
+
+input, textarea {
+	border: 1px solid #ccc;
+	padding: 10px;
+	outline: none;
+	@include transition-animation;
+	&:focus:required:invalid {
+		border-color: red;
+	}
+	&:required:valid {
+		border-color: green;
+	}
+}
+
+a {
+	text-decoration: none;
+	color: $text-color;
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+	
+.text-center {
+	text-align: center;
+}
+
+    header {
+    	background: url(../img/1.jpg);
+    	background-size: cover;
+    	background-position: center;
+    	min-height: 600px;
+    }
+
+    body {
+    	background-color: $bgc;
+		}
+
+		.brand-logo {
+			width: 100px;
+			height: 100px;
+			img {
+				height: 100%;
+				width: 100%;
+			}
+		}
+		
+		.menu {
+			&__link {
+				font-weight: bold;
+			}
+		}
+
+    .section {
+    	padding-top: 4vw;
+    	padding-bottom: 4vw;
+    }
+
+    .tabs .indicator {
+    	background-color: #0b3142;
+    }
+
+    .tabs .tab a:focus,
+    .tabs .tab a:focus.active {
+    	background: transparent;
+    }
+
+@import "media"; // Always at the end
