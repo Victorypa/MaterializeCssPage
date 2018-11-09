@@ -13,6 +13,8 @@
 	<li><strong>Gulp</strong></li>
 </ul>
 
+
+<h2>Install</h2>
 <ul>
 <li>
 <p>Install Node Modules:</p>
@@ -36,6 +38,7 @@ $ gulp watch
 <li>
 
 <p>Build project:</p>
+
 ```sh
 $ gulp build
 ```
