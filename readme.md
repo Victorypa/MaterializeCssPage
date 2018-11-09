@@ -1,4 +1,4 @@
-<h1>::Forest Hotel (responsive landing page)::</h1>
+<h1>Forest hotel</h1>
 
 <p>This project was created for learning and practice "Materialize CSS" framework</p>
 
@@ -12,7 +12,6 @@
 	<li><strong>Bootstrap 4 (grid)</strong></li>
 	<li><strong>Gulp</strong></li>
 </ul>
-
 
 <h2>Install</h2>
 <ul>
