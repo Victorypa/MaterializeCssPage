@@ -44,7 +44,8 @@
   background-color: orange;
   color: #fff; }
 
-html, body {
+html,
+body {
   height: 100%; }
 
 body {
@@ -55,16 +56,19 @@ body {
   font-family: "roboto-example", sans-serif;
   overflow-x: hidden; }
 
-input, textarea {
+input,
+textarea {
   border: 1px solid #ccc;
   padding: 10px;
   outline: none;
   -webkit-transition: 0.2s ease-in;
   -o-transition: 0.2s ease-in;
   transition: 0.2s ease-in; }
-  input:focus:required:invalid, textarea:focus:required:invalid {
+  input:focus:required:invalid,
+  textarea:focus:required:invalid {
     border-color: red; }
-  input:required:valid, textarea:required:valid {
+  input:required:valid,
+  textarea:required:valid {
     border-color: green; }
 
 a {
@@ -89,11 +93,11 @@ header {
   min-height: 600px; }
 
 body {
-  background-color: #d4d4d4; }
+  background-color: #1e2221; }
 
 .brand-logo {
-  width: 100px;
-  height: 100px; }
+  width: 80px;
+  height: 80px; }
   .brand-logo img {
     height: 100%;
     width: 100%; }
@@ -101,9 +105,26 @@ body {
 .menu__link {
   font-weight: bold; }
 
+.menu__navigation {
+  background-color: #000; }
+  .menu__navigation li a {
+    text-transform: uppercase;
+    color: #febf4b; }
+
 .section {
   padding-top: 4vw;
   padding-bottom: 4vw; }
+
+.main-caption {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #febf4b; }
+
+.main-text {
+  color: #fff; }
+
+.material-icons {
+  color: #fff; }
 
 .tabs .indicator {
   background-color: #0b3142; }
