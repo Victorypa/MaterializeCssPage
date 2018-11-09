@@ -48,6 +48,8 @@ $ gulp build
 
 </li>
 
+<li>
+
 <p>Remove "dist" folder: </p>
 
 ```sh
