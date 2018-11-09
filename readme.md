@@ -14,8 +14,10 @@
 </ul>
 
 <h2>Install</h2>
-<ul>
+
+<ol>
 <li>
+
 <p>Install Node Modules:</p>
 
 ```sh
@@ -41,9 +43,11 @@ $ gulp watch
 ```sh
 $ gulp build
 ```
+
 </li>
 
 </li>
+
 <p>Remove "dist" folder: </p>
 
 ```sh
@@ -52,6 +56,6 @@ $ gulp clean
 
 </li>
 
-</ul> 
+</ol> 
 
-<p>Author: Karuk Viktoriia</p>
+<p><strong>Author: </strong>Karuk Viktoriia</p>
