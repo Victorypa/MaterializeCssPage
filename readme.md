@@ -13,10 +13,17 @@
 	<li><strong>Gulp</strong></li>
 </ul>
 
+<ul>
+<li>
 <p>Install Node Modules:</p>
+
 ```sh
 $ npm install
 ```
+
+</li>
+
+<li>
 
 <p>Run project:</p>
 
@@ -24,15 +31,25 @@ $ npm install
 $ gulp watch
 ```
 
+</li>
+
+<li>
+
 <p>Build project:</p>
 ```sh
 $ gulp build
 ```
+</li>
 
+</li>
 <p>Remove "dist" folder: </p>
 
 ```sh
 $ gulp clean
 ``` 
+
+</li>
+
+</ul> 
 
 <p>Author: Karuk Viktoriia</p>
